@@ -1,0 +1,61 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Крестики Нолики</title>
+	<link rel="stylesheet" type="text/css" href="style/styles.css">
+</head>
+<body bgcolor="black">
+	<center>
+		<br>
+		<font class="css-main-text" style="color: red">Крестики</font>
+		<font class="css-main-text" style="color: aqua">Нолики</font>
+		<my id="id_my_4"></my>
+	</center>
+	<div id="id_my_1">
+	<center>
+		<br><br>
+		<button class="css-main-button" id="id_creategame">Создать Игру</button><br><br>
+		<button class="css-main-button" id="id_joingame">Подключится к игре</button>
+	</center>
+	</div>
+	<div id="id_my_2" hidden="">
+		<br><br>
+		<center>
+		<table border="1">
+			<tr>
+				<td class="css-cell" id="id_cell_1">
+					
+				</td>
+				<td class="css-cell" id="id_cell_2">
+					
+				</td>
+				<td class="css-cell" id="id_cell_3"></td>
+			</tr>
+			<tr>
+				<td class="css-cell" id="id_cell_4"></td>
+				<td class="css-cell" id="id_cell_5"></td>
+				<td class="css-cell" id="id_cell_6"></td>
+			</tr>
+			<tr>
+				<td class="css-cell" id="id_cell_7"></td>
+				<td class="css-cell" id="id_cell_8"></td>
+				<td class="css-cell" id="id_cell_9"></td>
+			</tr>
+		</table>
+		<p class="css-text-inf" id="id_inf_1">INFO</p>
+		</center>
+	</div>
+	<div id="id_my_3" hidden="">
+		<br><br><br><br>
+		<center>
+			<input type="text" id="id_joincode" class="css-ifield" placeholder="Пригласительный код">
+			<br><br><br><br>
+			<button id="id_button_join" class="css-btn-join">Присоединится</button>
+		</center>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
